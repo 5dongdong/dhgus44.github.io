@@ -8,33 +8,33 @@
 </head>
 <body>
   <div class="container">
-    <h1>Supabase CRUD 데모!</h1>
+    <h1>CRUD</h1>
 
     <section class="card">
-      <h2>새 글 작성!</h2>
+      <h2>새 글 작성</h2>
       <form id="createForm">
         <label>
-          제목!
-          <input type="text" id="titleInput" placeholder="제목을 입력하세요!" required />
+          제목
+          <input type="text" id="titleInput" placeholder="제목을 입력하세요" required />
         </label>
         <label>
-          내용!
-          <textarea id="contentInput" rows="4" placeholder="내용을 입력하세요!"></textarea>
+          내용
+          <textarea id="contentInput" rows="4" placeholder="내용을 입력하세요"></textarea>
         </label>
-        <button type="submit">등록!</button>
+        <button type="submit">등록</button>
       </form>
     </section>
 
     <section class="card">
       <div class="toolbar">
-        <h2>게시글 목록!</h2>
+        <h2>게시글 목록</h2>
         <div class="right">
-          <input type="search" id="searchInput" placeholder="제목으로 검색!" />
-          <button id="refreshBtn">새로고침!</button>
+          <input type="search" id="searchInput" placeholder="제목으로 검색" />
+          <button id="refreshBtn">새로고침</button>
         </div>
       </div>
       <ul id="postsList" class="list"></ul>
-      <div id="emptyState" class="empty hidden">데이터가 없어요—첫 글을 올려보세요!</div>
+      <div id="emptyState" class="empty hidden">첫 글을 올려보세요</div>
     </section>
   </div>
 
